@@ -1,0 +1,53 @@
+.navbar {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: $main-black-color;
+
+  .bwm-search {
+    height: 50px;
+    width: 300px !important;
+  }
+
+  .navbar-brand {
+    margin-right: 30px;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: $main-white-color !important;
+    font-weight: 500;
+
+    img {
+      height: 28px;
+      margin-left: -5px;
+    }
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .btn-bwm-search {
+    border-color: #C0C0C0	;
+    color: #C0C0C0	;
+
+    &:hover, &:focus, &:active {
+      background-color: transparent !important;
+      border-color: $main-white-color !important;
+      color: $main-white-color !important;
+      box-shadow: none;
+    }
+  }
+
+  .nav-item {
+    color: $main-white-color;
+  }
+
+  .dropdown-menu {
+    .dropdown-item {
+      font-size: 14px;
+
+      &:active {
+        background-color: $main-white-color;
+      }
+    }
+  }
+}
